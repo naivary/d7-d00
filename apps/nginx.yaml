@@ -4,9 +4,6 @@ metadata:
   name: team-1
   namespace: argocd
 spec:
-  syncPolicy:
-    automated:
-      enabled: true
   destination:
     server: https://kubernetes.default.svc
     namespace: nginx-fs
@@ -15,3 +12,8 @@ spec:
   - repoURL: https://github.com/naivary/team-1.git
     targetRevision: HEAD
     path: manifests/nginx
+  syncPolicy:
+    automated:
+      selfHeal: true
+    syncOptions:
+    - CreateNamespace=true
