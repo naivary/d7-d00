@@ -9,9 +9,9 @@ spec:
       enabled: true
   destination:
     server: https://kubernetes.default.svc
-    namespace: gitlab
+    namespace: nginx-fs
   project: default
   sources:
   - repoURL: https://github.com/naivary/team-1.git
     targetRevision: HEAD
-    path: apps
+    path: manifests/nginx
