@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: team-1
+  name: nginx-fs
   namespace: argocd
 spec:
   destination:
