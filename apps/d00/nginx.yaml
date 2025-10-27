@@ -9,7 +9,7 @@ spec:
     namespace: nginx-fs
   project: default
   sources:
-  - repoURL: https://github.com/naivary/team-1.git
+  - repoURL: https://github.com/naivary/d7-d00.git
     targetRevision: HEAD
     path: manifests/nginx
   syncPolicy:
