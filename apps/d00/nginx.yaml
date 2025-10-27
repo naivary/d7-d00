@@ -6,7 +6,7 @@ metadata:
 spec:
   destination:
     server: https://kubernetes.default.svc
-    namespace: nginx-fs
+    namespace: d7-d01
   project: d7-d00
   sources:
   - repoURL: https://github.com/naivary/d7-d00.git
