@@ -7,7 +7,7 @@ spec:
   destination:
     server: https://kubernetes.default.svc
     namespace: nginx-fs
-  project: default
+  project: d7-d00
   sources:
   - repoURL: https://github.com/naivary/d7-d00.git
     targetRevision: HEAD
